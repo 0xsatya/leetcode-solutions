@@ -2,8 +2,10 @@
 
 
 ## run rust programmes
+- All programs are run from main.rs file.
+- below command compile and run the code in cli
 ```
-$ cargo build && cargo run
+$ cargo run
 ```
 
 ## run go programmes

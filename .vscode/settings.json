@@ -1,0 +1,8 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./leetcode-rust/Cargo.toml",
+        "./leetcode-rust/Cargo.toml",
+        "./leetcode-rust/Cargo.toml"
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": false
+}
