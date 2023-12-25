@@ -19,7 +19,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     vec![]
 }
 
-pub fn main1() {
+pub fn main() {
     println!("Two Sum called !");
     let arg1: Vec<i32> = [3, 2, 5, 6].to_vec();
     let list1: Vec<i32> = two_sum(arg1, 8);

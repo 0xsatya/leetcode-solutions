@@ -9,6 +9,7 @@
 // An integer is a palindrome when it reads the same backward as forward.
 // For example, 121 is a palindrome while 123 is not.
 
+// NORMAL SOLUTION
 pub fn is_palindrome(x: i32) -> bool {
     if x < 0 || (x % 10 == 0 && x != 0) {
         return false;
@@ -28,6 +29,12 @@ pub fn is_palindrome2(x: i32) -> bool {
 }
 
 pub fn main() {
-    println!("{}", is_palindrome(121));
-    println!("{}", is_palindrome2(121));
+    println!("Checking numnber as panlindrom");
+    let mut x = 121;
+    println!("Is number {} a palindrome ? {} ", x, is_palindrome(x));
+    println!("Is number {} a palindrome ? {} ", x, is_palindrome2(x));
+
+    x = 122;
+    println!("Is number {} a palindrome ? {} ", x, is_palindrome(x));
+    println!("Is number {} a palindrome ? {} ", x, is_palindrome2(x));
 }
